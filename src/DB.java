@@ -6,7 +6,7 @@ public class DB {
 		Connection con=null;
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306","root","mahim23");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306","root","1234");
 			con.prepareStatement("CREATE DATABASE IF NOT EXISTS `test`").execute();
 			con.prepareStatement("USE `test`").execute();
 		}catch(Exception e){System.out.println(e);}
