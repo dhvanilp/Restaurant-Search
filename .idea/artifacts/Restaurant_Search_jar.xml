@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Restaurant_Search:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Restaurant_Search_jar</output-path>
+    <root id="archive" name="Restaurant_Search.jar">
+      <element id="module-output" name="Restaurant_Search" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/MySQL/Connector.J 5.1/mysql-connector-java-5.1.44-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
